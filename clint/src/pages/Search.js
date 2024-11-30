@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "../../components/Layout"; // Ensure this path is correct
 import useSearch from "../../hooks/useSearch"; // Ensure this hook exists and works properly
+import Layout from "../components/Layout";
+
 
 const Search = () => {
   // Destructure `values` and `setValues` from the custom hook `useSearch`
